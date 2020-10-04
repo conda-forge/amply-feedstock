@@ -1,5 +1,5 @@
 {% set name = "amply" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6e5d53af62772790ba82a989a3de72b8ce5c1cd809613c06f7cb061f7ec34dc8
+  sha256: cb12dcb49d16b168c02be128a1527ecde50211e4bd94af76ff4e67707f5a2d38
 
 build:
   number: 0
@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.4
     - pip
     - setuptools_scm
   run:
-    - python
+    - python >=3.4
     - docutils >=0.3
     - pyparsing
 
