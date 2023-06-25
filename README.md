@@ -1,11 +1,11 @@
-About amply
-===========
+About amply-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amply-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/willu47/amply
 
 Package license: EPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amply-feedstock/blob/main/LICENSE.txt)
 
 Summary: Amply allows you to load and manipulate AMPL/GLPK data as Python data structures
 
