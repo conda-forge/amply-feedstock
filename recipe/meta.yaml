@@ -1,5 +1,5 @@
 {% set name = "amply" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ad717b490b6b7055909faa195e82a4432b706f8f95854050172f42931e478426
+  sha256: 61421103ccf8e1066717115fe7917610d831d551c68d31a110876a5b6c78aea4
 
 build:
   number: 0
